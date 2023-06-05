@@ -132,10 +132,7 @@ function Signup() {
     <div className="login">
       <section
         className="vh-100 bg-image"
-        style={{
-          backgroundImage:
-            "url('https://mdbcdn.b-cdn.net/img/Photos/new-templates/search-box/img4.webp')",
-        }}
+        style={{ backgroundImage:'background.jpg'}}
       >
         <div className="mask d-flex align-items-center h-100 gradient-custom-3">
           <div className="container h-100">
@@ -143,18 +140,11 @@ function Signup() {
               <div className="col-12 col-md-9 col-lg-7 col-xl-6">
                 <div className="card" style={{ borderRadius: "15px" }}>
                   <div className="card-body p-5">
-                    <h2 className="text-uppercase text-center mb-5">
-                      Create an account
-                    </h2>
+                    <h2 className="text-uppercase text-center mb-5">  Create an account </h2>
 
                     <form>
                       <div className="form-outline mb-4">
-                        <label
-                          className="form-label"
-                          htmlFor="form3Example3cg"
-                        >
-                          First Name
-                        </label>
+                        <label className="form-label" htmlFor="form3Example3cg">First Name </label>
                         <input
                           type="text"
                           id="form3Example3cg"
